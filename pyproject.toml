@@ -1,0 +1,22 @@
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-error-doctor"
+version = "0.1.0"
+description = "An AI-powered CLI for analyzing Python errors"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "python-dotenv",
+    "langchain-groq",
+    "langchain-google-genai",
+]
+
+[project.scripts]
+errodoc = "errodoc.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
