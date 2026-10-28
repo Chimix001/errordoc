@@ -278,9 +278,5 @@ Contributions and suggestions are welcome. For changes, consider opening
 an issue first, then submitting a pull request with a clear description
 and relevant tests.
 
-## License
-
-MIT License
-
 Built as an experimental Python developer tool using Python, Groq, and
 Google Gemini.
